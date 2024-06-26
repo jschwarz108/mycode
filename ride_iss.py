@@ -46,6 +46,8 @@ def main():
         # display what astro is
         print(astro)
 
+    print("People in space: " + str(helmetson["number"]))
+
     # display every item in a list
     for astro in helmetson["people"]:
         # display ONLY the name value associated with astro
